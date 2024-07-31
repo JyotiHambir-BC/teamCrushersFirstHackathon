@@ -1,0 +1,31 @@
+.header-background {
+    background-image: url('../images/beach_compressed.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 50px 0;
+}
+
+.breadcrumb-item a {
+    color: #ffffff;
+}
+.breadcrumb-item.active {
+    color: #ffffff;
+}
+
+.navbar {
+    background-color: #ffffff; 
+    color: #000000;
+} 
+
+.navbar a {
+    color: #000000; 
+}
+
+.navbar a:hover {
+    color: #000000; 
+}
+
+.navbar .disabled {
+    color: #cccccc; 
+}
