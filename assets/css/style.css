@@ -40,7 +40,7 @@ body {
 .bar {
     width: 50px;
     height: 10px;
-    border-radius: 2px solid #ffffff;
+    border: 2px solid #ffffff;
     margin: 6px;
     background-color: #9c96a7;
     cursor: pointer;
@@ -188,7 +188,7 @@ footer{
 
 .social-icons a{
     list-style-type: none;
-    display: inline block;
+    display: inline-block;
     text-decoration: none;
     padding: 5px;
     margin: 5px;
