@@ -1,5 +1,4 @@
-
-html{
+html {
     height: 100%;
 }
 
@@ -12,8 +11,11 @@ body {
     flex-direction: column;
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> main
 /* Style for Popular destination section */
 
 .slidershow {
@@ -27,8 +29,12 @@ body {
     position: relative;
     top: 50%;
     left: 50%;
+<<<<<<< HEAD
     transform: translate(-50%, -5%);
 
+=======
+    transform: translate(-50%, -50%);
+>>>>>>> main
 }
 
 .navigation {
@@ -53,27 +59,11 @@ body {
     background-color: #dd820c;
 }
 
-input[name="r1"]{
-    position: absolute;
-    visibility: hidden;
-}
-
-input[name="r2"]{
-    position: absolute;
-    visibility: hidden;
-}
-
-input[name="r3"]{
-    position: absolute;
-    visibility: hidden;
-}
-
-input[name="r4"]{
-    position: absolute;
-    visibility: hidden;
-}
-
-input[name="r5"]{
+input[name="r1"],
+input[name="r2"],
+input[name="r3"],
+input[name="r4"],
+input[name="r5"] {
     position: absolute;
     visibility: hidden;
 }
@@ -180,27 +170,25 @@ input[name="r5"]{
 
 }
 /* for footer area */
-footer{
+footer {
     background-color: rgb(78, 126, 39);
     width: 100%;
     display: inline-block;
     margin-top: auto;
-
 }
 
-.footer-container{
+.footer-container {
     height: auto;
     width: 100%;
     padding: 20px 15px 20px 15px;
 }
 
-.social-network{
+.social-network {
     display: flex;
     justify-content: center;
-        
 }
 
-.social-icons a{
+.social-icons a {
     list-style-type: none;
     display: inline block;
     text-decoration: none;
@@ -210,25 +198,23 @@ footer{
     border-radius: 50%;
 }
 
-
-.social-icons a i{
+.social-icons a i {
     font-size: 1em;
     color: black;
     padding: 10px;
     opacity: 0.9;
-    
 }
 
-.social-icons a:hover{
+.social-icons a:hover {
     background-color: #dd820c;
     transition: 0.5s;
 }
 
-.footer-bottom{
+.footer-bottom {
     align-items: center;
 }
 
-.footer-bottom p{
+.footer-bottom p {
     display: flex;
     justify-content: center;
     text-transform: uppercase;
@@ -236,10 +222,12 @@ footer{
     padding-top: 15px;
     color: #fff;
 }
-.footer-bottom p span{
+
+.footer-bottom p span {
     justify-content: space-around;
 }
 
+<<<<<<< HEAD
 /* ------------Media Queries for Testimonials------------------------ */
 
 @media screen and (max-width:960px){
@@ -255,3 +243,52 @@ footer{
     }
 }
 
+=======
+/* Additional styles for header and navbar */
+
+.header-background {
+    background-image: url('../images/beach_compressed.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 50px 0;
+}
+
+.breadcrumb-item a {
+    color: #ffffff;
+}
+
+.breadcrumb-item.active {
+    color: #ffffff;
+}
+
+.navbar {
+    background-color: #ffffff; 
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.navbar-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar a {
+    color: #000000; 
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #000000; 
+}
+
+.navbar .disabled {
+    color: #cccccc; 
+}
+>>>>>>> main
