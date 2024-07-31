@@ -6,11 +6,12 @@ html{
 body {
     margin: 0;
     padding: 0;
-    background: rgb(25, 12, 41);
+    /* background: rgb(25, 12, 41); */
     min-height: 100%;
     display: flex;
     flex-direction: column;
 }
+
 
 
 /* Style for Popular destination section */
@@ -112,6 +113,60 @@ input[name="r5"]{
     margin-left: -80%;
 }
 
+/* ---------------------Testimonials Style-------- */
+
+.testimonials {
+    padding: 40px 0;
+    background: #f1f1f1;
+    color: #434343;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.inner {
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.border {
+    width: 160px;
+    height: 5px;
+    background: #6ab04c;
+    margin: 26px auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col {
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.testimonial {
+    background: #fff;
+    padding: 30px;
+}
+
+.name {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.stars {
+    color: #dd820c;
+    margin-bottom: 20px;
+
+}
 /* for footer area */
 footer{
     background-color: rgb(78, 126, 39);
