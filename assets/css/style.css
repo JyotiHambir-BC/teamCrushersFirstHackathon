@@ -112,6 +112,59 @@ input[name="r5"]{
     margin-left: -80%;
 }
 
+/* ---------------------Testimonials Style-------- */
+
+.testimonials {
+    padding: 40px 0;
+    background: #f1f1f1;
+    color: #434343;
+    text-align: center;
+}
+
+.inner {
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.border {
+    width: 160px;
+    height: 5px;
+    background: #6ab04c;
+    margin: 26px auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col {
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.testimonial {
+    background: #fff;
+    padding: 30px;
+}
+
+.name {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.stars {
+    color: #dd820c;
+    margin-bottom: 20px;
+
+}
+
 /* for footer area */
 footer{
     background-color: rgb(78, 126, 39);
@@ -171,4 +224,19 @@ footer{
 }
 .footer-bottom p span{
     justify-content: space-around;
+}
+
+/* ------------Media Queries------------------------ */
+
+@media screen and (max-width:960px){
+    .col {
+        flex: 100%;
+        max-width: 80%;
+    }
+}
+@media screen and (max-width:768px){
+    .col {
+        flex: 100%;
+        max-width: 100%;
+    }
 }
