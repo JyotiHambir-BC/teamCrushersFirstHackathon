@@ -12,10 +12,11 @@ footer{
     background-color: rgb(78, 126, 39);
     width: 100%;
     display: inline-block
+
 }
 
 .footer-container{
-    
+    height: auto;
     width: 100%;
     padding: 20px 15px 20px 15px;
 }
@@ -23,10 +24,45 @@ footer{
 .social-network{
     display: flex;
     justify-content: center;
+        
+}
+
+.social-icons a{
+    list-style-type: none;
+    display: inline block;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    background-color: #c9dd13;
+    border-radius: 50%;
+}
+
+
+.social-icons a i{
+    font-size: 1em;
+    color: black;
+    padding: 10px;
+    opacity: 0.9;
     
 }
 
-.social-network ul{
-    list-style-type: none;
-    display: inline;
+.social-icons a:hover{
+    background-color: #dd820c;
+    transition: 0.5s;
+}
+
+.footer-bottom{
+    align-items: center;
+}
+
+.footer-bottom p{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: small;
+    padding-top: 15px;
+    color: #fff;
+}
+.footer-bottom p span{
+    justify-content: space-around;
 }
