@@ -36,6 +36,7 @@ description about projects
 
 
     - _06 Tour Page_
+        The Tour page has a logo linked to index page, navigation bar and header image. There is a black overlay with 50% opacity over the header image for better text readability. Title of the page (Tours) sits on top of the header. There is breadcrumb nav under the page title. The middle section contains 12 tour cards with images, tour titles, short text, price and View All submit button. The footer features at the bottom of the page.  The page is not finished.  It has 'Coming Soon' words and image covering the whole page.
         ![Tour-page]()
 
 
@@ -72,12 +73,14 @@ description about projects
 
       - #### Tour Page Wireframes
         ![Tour-page]()
+        
 
       - #### Contact Page Wireframes
         ![Contact-page]()
   
   
 ## Technology Used
+    - Tools for compressing and converting images (cloud-based)
 
 ### Language Used
     - [HTML5]()
@@ -124,7 +127,7 @@ description about projects
 ### Content
 ### Code
 ### Media
-  - All images were donloaded from []()
+  - All images were donloaded from Pixabay()
 
 ### Acknowledgments
 
