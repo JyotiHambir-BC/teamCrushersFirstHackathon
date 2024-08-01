@@ -333,6 +333,7 @@ footer {
     justify-content: space-around;
 }
 
+
 /* ------------Media Queries for Testimonials------------------------ */
 
 @media screen and (max-width:960px){
@@ -347,6 +348,7 @@ footer {
         max-width: 100%;
     }
 }
+
 
 /* Additional styles for header and navbar */
 
@@ -394,4 +396,67 @@ footer {
 
 .navbar .disabled {
     color: #cccccc; 
+
+.hero h1 {
+    font-size: 2.5rem;
 }
+
+.hero p {
+    margin-top: 0.5rem;
+}
+
+main {
+    padding: 2rem;
+    background: #f4f4f4;
+}
+
+.tour-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    width: calc(33.333% - 1rem);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 1rem;
+}
+
+.card-content h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.card-content p {
+    margin: 0.5rem 0;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    background: #ff6600;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+*/
+
