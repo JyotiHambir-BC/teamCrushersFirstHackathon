@@ -10,10 +10,29 @@ html {
 body {
     margin: 0;
     padding: 0;
-    /* background: rgb(32, 24, 77); */
+    background: rgba(22, 94, 107, 0.7);
     min-height: 100%;
     display: flex;
     flex-direction: column;
+    
+
+}
+/* ------------------------Header Style--------------- */
+
+.header{
+    background-image: url('../images/alps_compressed_cropped.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    height: 350px;
+}
+
+.header .hero .logo img{
+    height: 150px;
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 50px;
 }
 
 nav {
@@ -31,7 +50,6 @@ nav {
 .tagline {
     text-align: center;
     margin-bottom: auto;
-    margin-top: 5%;
     text-transform: uppercase;
     width: 100%;
 }
@@ -57,7 +75,7 @@ nav {
     width: 700px;
     height: 500px;
     overflow: hidden;
-    margin-top: auto;
+    margin-top: 10px;
 }
 
 .middle {
@@ -333,7 +351,6 @@ footer {
     justify-content: space-around;
 }
 
-
 /* ------------Media Queries for Testimonials------------------------ */
 
 @media screen and (max-width:960px){
@@ -348,7 +365,6 @@ footer {
         max-width: 100%;
     }
 }
-
 
 /* Additional styles for header and navbar */
 
@@ -396,67 +412,4 @@ footer {
 
 .navbar .disabled {
     color: #cccccc; 
-
-.hero h1 {
-    font-size: 2.5rem;
 }
-
-.hero p {
-    margin-top: 0.5rem;
-}
-
-main {
-    padding: 2rem;
-    background: #f4f4f4;
-}
-
-.tour-cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
-}
-
-.card {
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    overflow: hidden;
-    width: calc(33.333% - 1rem);
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.card img {
-    width: 100%;
-    height: auto;
-}
-
-.card-content {
-    padding: 1rem;
-}
-
-.card-content h3 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 1.2rem;
-}
-
-.card-content p {
-    margin: 0.5rem 0;
-}
-
-button {
-    display: block;
-    width: 100%;
-    padding: 0.5rem;
-    background: #ff6600;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-top: 1rem;
-}
-
-*/
-
