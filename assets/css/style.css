@@ -10,13 +10,32 @@ html {
 body {
     margin: 0;
     padding: 0;
-    /* background: rgb(32, 24, 77); */
+    background: rgba(22, 94, 107, 0.7);
     min-height: 100%;
     display: flex;
     flex-direction: column;
+    
+
+}
+/* ------------------------Header Style--------------- */
+
+.header{
+    background-image: url('../images/alps_compressed_cropped.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    height: 350px;
 }
 
-/* nav {
+.header .hero .logo img{
+    height: 150px;
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+nav {
     text-align: right;
     font-size: 30px;
     margin-right: 20px;
@@ -25,113 +44,12 @@ body {
     background-color: #ffffff;
     width: 100%;
     left: 0;
-    padding: 0 1rem; */
-/* } */
-
-/* ---------------------------- For Contact page header style */
-.header-container {
-    background-image: url('../images/contact-images.jpg');
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    height: 350px;
-}
-/* Black overlay with 50% opacity over the hero image for better text readability. */
-.header-container::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
-    z-index: 1;
-}
-.navbar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    padding: 10px 0;
-    z-index: 1000; /* Navbar on top */
-}
-.navbar .logo img {
-    height: 100px;
-    width: auto;
-    margin-left: 20px;
-}
-nav {
-    flex-grow: 1;
-    text-align: center;
-}
-.navbar nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.navbar nav ul li {
-    margin: 0 15px;
-}
-.navbar nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-family: Red Rose;
-    font-size: 1.5em;
-    transition: color 0.3s;
-}
-.navbar nav ul li a:hover {
-    color: #F7B500;
-}
-/* Hero section styles */
-.hero {
-    text-align: left;
-    color: #fff;
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    transform: none;
-    z-index: 1000; /* Navbar on top */
-}
-.hero h2 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-    font-family: 'Red Rose', cursive;
-}
-.breadcrumb {
-    display: flex;
-    align-items: center;
-}
-.breadcrumb-item {
-    color: white; /* White color for links */
-    text-decoration: none; /* Remove underline from links */
-    margin: 0 5px;
-    position: relative;
-}
-.breadcrumb-item::after {
-    content: ">";
-    color: white; /* White color for the arrow */
-    margin-left: 20px;
-}
-.breadcrumb-item:nth-child(2) {
-    margin-left: 0px;
-}
-.breadcrumb-item:last-child::after {
-    content: "";
-}
-.breadcrumb-item:hover {
-    color: #F7B500;
-}
-.breadcrumb-item:last-child {
-    color: #F7B500;
+    padding: 0 1rem;
 }
 
 .tagline {
     text-align: center;
     margin-bottom: auto;
-    margin-top: 5%;
     text-transform: uppercase;
     width: 100%;
 }
@@ -157,7 +75,7 @@ nav {
     width: 700px;
     height: 500px;
     overflow: hidden;
-    margin-top: auto;
+    margin-top: 10px;
 }
 
 .middle {
@@ -433,7 +351,6 @@ footer {
     justify-content: space-around;
 }
 
-
 /* ------------Media Queries for Testimonials------------------------ */
 
 @media screen and (max-width:960px){
@@ -448,7 +365,6 @@ footer {
         max-width: 100%;
     }
 }
-
 
 /* Additional styles for header and navbar */
 
@@ -496,67 +412,4 @@ footer {
 
 .navbar .disabled {
     color: #cccccc; 
-
-.hero h1 {
-    font-size: 2.5rem;
 }
-
-.hero p {
-    margin-top: 0.5rem;
-}
-
-main {
-    padding: 2rem;
-    background: #f4f4f4;
-}
-
-.tour-cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
-}
-
-.card {
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    overflow: hidden;
-    width: calc(33.333% - 1rem);
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.card img {
-    width: 100%;
-    height: auto;
-}
-
-.card-content {
-    padding: 1rem;
-}
-
-.card-content h3 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 1.2rem;
-}
-
-.card-content p {
-    margin: 0.5rem 0;
-}
-
-button {
-    display: block;
-    width: 100%;
-    padding: 0.5rem;
-    background: #ff6600;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-top: 1rem;
-}
-
-*/
-
