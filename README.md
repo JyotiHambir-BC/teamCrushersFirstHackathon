@@ -68,7 +68,7 @@ description about projects
       - Google font
     - ### Wireframes
       - #### Home Page Wireframes
-        ![home]()
+        ![home](documents/home-page.png)
 
       - #### Tour Page Wireframes
         ![Tour-page]()
