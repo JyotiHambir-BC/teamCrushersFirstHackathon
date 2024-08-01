@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+body {
+    color: #333;
+}
+
+/* Header styles */
+.header-container {
+    background-image: url('../images/alps_compressed_cropped.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 350px;
+}
+
+/* Black overlay with 50% opacity over the hero image for better text readability. */
+.header-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); 
+    z-index: 1;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;    
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    z-index: 1000; /* Navbar on top */
+}
+
+.navbar .logo img {
+    height: 100px;
+    width: auto;
+    margin-left: 20px;
+}
+
+nav {
+    flex-grow: 1; 
+    text-align: center;
+    
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar nav ul li {
+    margin: 0 15px;
+}
+
+.navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: Red Rose;
+    font-size: 1.5em;
+    transition: color 0.3s;
+}
+
+.navbar nav ul li a:hover {
+    color: #f7b500;
+}
+
+/* Hero section styles */
+.hero {
+    text-align: left;
+    color: #fff;
+    position: absolute;
+    bottom: 20px;
+    left: 20px; 
+    transform: none;
+    z-index: 1000; /* Navbar on top */
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-family: 'Red Rose', cursive;
+}
+
+.breadcrumb {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb-item {
+    color: white; /* White color for links */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 5px;
+    position: relative;
+}
+
+.breadcrumb-item::after {
+    content: ">";
+    color: white; /* White color for the arrow */
+    margin-left: 20px;
+    
+}
+
+.breadcrumb-item:nth-child(2) {
+    margin-left: 0px;
+}
+
+
+.breadcrumb-item:last-child::after {
+    content: "";
+}
+
+
+.breadcrumb-item:hover {
+    color: #f7b500; 
+}
+
+.breadcrumb-item:last-child {
+    color: #f7b500; 
+}
+
+/* Contact info section styles */
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.info-box {
+    text-align: center;
+    width: 30%;
+}
+
+.info-box .bi {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #f7b500;
+}
+
+.info-box h3 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.info-box p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+/* Contact form section styles */
+.contact-form {
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-form h2 {
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+.contact-form p {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #f7b500;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.contact-form form button:hover {
+    background-color: #cc7a00;
+}
+
+/* Footer styles */
+.footer-container {
+    background-color: #333;
+    color: #fff
