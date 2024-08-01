@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 html {
     height: 100%;
 }
@@ -5,27 +10,62 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background: rgb(25, 12, 41);
+    /* background: rgb(32, 24, 77); */
     min-height: 100%;
     display: flex;
     flex-direction: column;
 }
 
+nav {
+    text-align: right;
+    font-size: 30px;
+    margin-right: 20px;
+    text-decoration: none;
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+}
+
+.tagline {
+    text-align: center;
+    margin-bottom: auto;
+    margin-top: 5%;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.tagline h1{
+    background-color: #c7c2c2;
+    text-shadow: #27a327;
+    text-decoration: none;
+    /* color: #434343; */
+    color: rgb(55, 50, 131);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+   justify-content: center;
+   transform: translate(10px, 10px);
+}
 
 
 /* Style for Popular destination section */
 
 .slidershow {
     width: 700px;
-    height: 400px;
+    height: 500px;
     overflow: hidden;
+    margin-top: auto;
 }
 
 .middle {
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -5%);
+
 }
 
 .navigation {
@@ -39,9 +79,9 @@ body {
 .bar {
     width: 50px;
     height: 10px;
-    border-radius: 2px solid #ffffff;
+    border: 2px solid #ffffff;
     margin: 6px;
-    background-color: #9c96a7;
+    background-color: rgba(0, 0, 0, 0.2);
     cursor: pointer;
     transition: 0.4s;
 }
@@ -68,6 +108,7 @@ input[name="r5"] {
 .image {
     width: 20%;
     transition: 0.6s;
+    margin-top: auto;
 }
 
 .image img {
@@ -80,7 +121,7 @@ input[name="r5"] {
 }
 
 #r2:checked ~ .m1 {
-    margin-left: -20%;
+    margin-left: -20%; 
 }
 
 #r3:checked ~ .m1 {
@@ -95,7 +136,146 @@ input[name="r5"] {
     margin-left: -80%;
 }
 
-/* for footer area */
+/* ---------------------Testimonials Style-------- */
+
+.testimonials {
+    padding: 40px 0;
+    background: #c7c2c2;
+    color: #434343;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: auto;
+}
+.testimonials h1 {
+    font-size: 50px;
+    color: rgb(55, 50, 131);
+    font-style: normal;
+   
+}
+
+.inner {
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.border {
+    width: 160px;
+    height: 5px;
+    background: #6ab04c;
+    margin: 26px auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: 1;
+}
+
+.col {
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.testimonial {
+    background: #fff;
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.name {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.stars {
+    color: #dd820c;
+    margin-bottom: 20px;
+
+}
+/* ---------------------for contact page-------------------------- */
+.contact-page{
+    padding: 40px 0;
+    color: #434343;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: auto;
+}
+
+
+.contact-details {
+    background: #e2dcdc;
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.contact-details span {
+    font-size: 50px;
+}
+
+.form-group {
+    margin: auto;
+    width: 500px;
+    max-width: 90%;
+}
+
+.form-group form {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.form-group form h1 {
+    text-align: center;
+    margin-bottom: 24px;
+    color: #222;
+    text-transform: uppercase;
+}
+
+.form-group form .form-contral{
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid silver;
+    margin: 10px 0 18px 0;
+    padding: 0 10px;                                                                                                                                   
+}
+
+.form-group form .btn {
+    margin-left: auto;
+    width: 120px;
+    height: 34px;
+    border: none;
+    outline: none;
+    background: #27a327;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.form-group form .btn:hover {
+    opacity: 0.7;
+}
+
+/* ---------------------for footer area-------------------------- */
 footer {
     background-color: rgb(78, 126, 39);
     width: 100%;
@@ -153,7 +333,22 @@ footer {
     justify-content: space-around;
 }
 
-/*
+
+/* ------------Media Queries for Testimonials------------------------ */
+
+@media screen and (max-width:960px){
+    .col {
+        flex: 100%;
+        max-width: 50%;
+    }
+}
+@media screen and (max-width:768px){
+    .col {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
 
 /* Additional styles for header and navbar */
 
