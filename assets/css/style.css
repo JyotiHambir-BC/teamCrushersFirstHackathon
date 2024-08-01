@@ -16,7 +16,7 @@ body {
     flex-direction: column;
 }
 
-nav {
+/* nav {
     text-align: right;
     font-size: 30px;
     margin-right: 20px;
@@ -25,7 +25,107 @@ nav {
     background-color: #ffffff;
     width: 100%;
     left: 0;
-    padding: 0 1rem;
+    padding: 0 1rem; */
+/* } */
+
+/* ---------------------------- For Contact page header style */
+.header-container {
+    background-image: url('../images/contact-images.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 350px;
+}
+/* Black overlay with 50% opacity over the hero image for better text readability. */
+.header-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    z-index: 1000; /* Navbar on top */
+}
+.navbar .logo img {
+    height: 100px;
+    width: auto;
+    margin-left: 20px;
+}
+nav {
+    flex-grow: 1;
+    text-align: center;
+}
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar nav ul li {
+    margin: 0 15px;
+}
+.navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: Red Rose;
+    font-size: 1.5em;
+    transition: color 0.3s;
+}
+.navbar nav ul li a:hover {
+    color: #F7B500;
+}
+/* Hero section styles */
+.hero {
+    text-align: left;
+    color: #fff;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    transform: none;
+    z-index: 1000; /* Navbar on top */
+}
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-family: 'Red Rose', cursive;
+}
+.breadcrumb {
+    display: flex;
+    align-items: center;
+}
+.breadcrumb-item {
+    color: white; /* White color for links */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 5px;
+    position: relative;
+}
+.breadcrumb-item::after {
+    content: ">";
+    color: white; /* White color for the arrow */
+    margin-left: 20px;
+}
+.breadcrumb-item:nth-child(2) {
+    margin-left: 0px;
+}
+.breadcrumb-item:last-child::after {
+    content: "";
+}
+.breadcrumb-item:hover {
+    color: #F7B500;
+}
+.breadcrumb-item:last-child {
+    color: #F7B500;
 }
 
 .tagline {
