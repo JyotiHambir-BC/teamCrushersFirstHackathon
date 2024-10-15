@@ -1,10 +1,10 @@
 <h1 align="center">WANDERLUST ADVENTURE </h1>
 
-[View the live Project here](url)
+[View the live Project here](https://jyotihambir-bc.github.io/teamCrushersFirstHackathon/)
 
 description about projects
 
-![Mockup]()
+![Mockup](assets/images/wonderlust-adventute.png)
 
 ## User Experience (UX)
   - ### Use Stories
