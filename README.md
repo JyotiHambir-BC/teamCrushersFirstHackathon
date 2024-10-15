@@ -2,131 +2,71 @@
 
 [View the live Project here](https://jyotihambir-bc.github.io/teamCrushersFirstHackathon/)
 
-description about projects
 
-![Mockup](assets/images/wonderlust-adventute.png)
+![Mockup](assets/documents/wonderlust-adventute.png)
 
 ## User Experience (UX)
   - ### Use Stories
 
 ## Features
 
-  - ### Existing Features
-    - _01 Navigation Bar_
-    ![Navbar]()
+- ### Existing Features
+  
+  - _01 Home Page Images_
+  ![homepage-images](assets/documents/homepage1.png)
+  ![homepage-images](assets/documents/homepage2.png)
 
+  - _02 Tour Page_
+  ![Tour-page](assets/documents/tour-page.png)
 
-    - _02 Tagline_
-    ![Tagline]()
-
-
-    - _03 Home Page Images_
-    ![homepage-images]()
-
-
-    - _04 Testimonials_
-    ![Tm1]()
-    ![TM2]()
-    ![TM3]()
-
-
-    - _05 Footer_
-      - The Footer is featured all all three pages. It having links for Company's social networking site. Also have the Team's Copyright Text to the bottom-right site of the footer.
-      ![footer]()
-
-
-    - _06 Tour Page_
-        ![Tour-page]()
-
-
-    - _07 Contact Page - 'Visit Our Office'_
-      - We provided the address of the Company so user can visit the Company Site if they want.
+  - _03 Contact Page_
+    - We provided the address of the Company so user can visit the Company Site if they want.
+  ![Tour-page](assets/documents/contact-page1.png)
+  ![Tour-page](assets/documents/contact-page2.png)
       
-      - ![visit-our-office]()
-
-    - _08 Contact Page - 'Let's Talk'_
-      - We provided the registered phone and Fax number to contact the Company.
-      - ![let's-talk]()
-
-    - _09 Contact Page - 'Email-Us'_
-      - We provided the Company's registered email address for User to contact the Company through Email.
-      - ![Email-us]()
-
-    - _10 Form - 'Drop us a line'_
-      - We have provided the form for get the feedback from the Users for give us any suggetions or any comments.
-      - ![form]()
-
+   
 ### Features which could be implemented in future
-    - _Image Details_
-      - A tour page having images for booking the places where we are going to update details in future.
+- _Image Details_
+   - A tour page having images for booking the places where we are going to update details in future.
 
 
- ## Design
-    - ### Imagery
-    - ### Colour Scheme
-    - ### Typography
-      - Google font
-    - ### Wireframes
-      - #### Home Page Wireframes
-        ![home]()
-
-      - #### Tour Page Wireframes
-        ![Tour-page]()
-
-      - #### Contact Page Wireframes
-        ![Contact-page]()
   
   
 ## Technology Used
 
 ### Language Used
-    - [HTML5]()
-    - [CSS3]()
+* [HTML 5](https://en.wikipedia.org/wiki/HTML/)- Used to structure all the templates on the site
+* [CSS 3](https://en.wikipedia.org/wiki/CSS)- to provide extra styling to the site
 
 ### Frameworks, Libraries
-    - [Google Font]() 
-    - [Font Awesome]() Used to add icons for UX purposes.
-    - [bootsrap 5.3.2]() Used to add style in HTML code
-    - [Balsamiq]() was used to create a wireframe during design process.
-  
+* [Balsamiq](https://balsamiq.com/)- To build the wireframes for the project.
+* [Bootstrap](https://getbootstrap.com/) Used to add style in HTML code
+* [Google Fonts:](https://fonts.google.com/) used for the Poppins and Protest Guerrilla font
+* [Font Awesome:](https://fontawesome.com/) was used to add icons for aesthetic and UX purposes.
+
 ## Testing
 
-### Validator Testing
-
-    - [HTML Validator]()
-        - Result - index.html
-        ![html index result]()
-        - Result - tour.html
-        ![html tour result]()
-        - Result - contact.html
-        ![html contact result]()
-
-
-    - [CSS Validator]()
-       `-![CSS result]()
-
 ### Test Cases and Results
-    - ![Test Result]()
+  - Testing has taken place continuously throughout the development of the project. Each view was tested regularly.
 
 ## Deployment
 
 ### How this site was deployed
 
-    - In the GitHub repository, navigate to the Settings tab, then choose Pages from the left hand menu 
-    - From the source section drop-down menu, select the Master Branch
-    - Once the master branch has been selected, the page will be automatically refreshed with a detailed  ribbon display to indicate the successful deployment
-    - Any changes pushed to the master branch will take effect on the live project.
+  - In the GitHub repository, navigate to the Settings tab, then choose Pages from the left hand menu 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed  ribbon display to indicate the successful deployment
+  - Any changes pushed to the master branch will take effect on the live project.
 
-    The live link can be found here - [Wonderlust Adventure]()
+  The live link can be found here - [Wonderlust Adventure](https://jyotihambir-bc.github.io/teamCrushersFirstHackathon/)
 
 ## Credits
 
-### Content
-### Code
 ### Media
-  - All images were donloaded from []()
+- All images were donloaded from google
 
 ### Acknowledgments
+- Thank You my mentor Elaine Roche and my teammate Gordana P. for your constant support throughout this project.
 
   
 
